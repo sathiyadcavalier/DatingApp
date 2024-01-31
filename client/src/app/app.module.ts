@@ -16,6 +16,7 @@ import { MessagesComponent } from './messages/messages.component';
 
 import { ToastrModule } from 'ngx-toastr';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { SharedModule } from './_modules/shared.module';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
     HttpClientModule,
     BrowserAnimationsModule,
     FormsModule,
-   
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
