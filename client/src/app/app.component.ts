@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { response } from 'express';
 import { User } from './_models/user';
 import { AccountService } from './_services/account.service';
 
