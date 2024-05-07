@@ -26,5 +26,4 @@ namespace API.Helpers
             return new PagedList<T>(items, count, PageNumber, pageSize);
         }
     }
-
 }
